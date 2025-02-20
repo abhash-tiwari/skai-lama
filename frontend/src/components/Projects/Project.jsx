@@ -26,7 +26,7 @@ const Project = () => {
     const fetchProjects = async () => {
         try {
             const token = localStorage.getItem("token");
-            const response = await axios.get("http://localhost:5000/api/projects", {
+            const response = await axios.get("https://skai-lama-2g0p.onrender.com/api/projects", {
                 headers: { Authorization: `Bearer ${token}` },
             });
             setProjects(response.data);
@@ -54,7 +54,7 @@ const Project = () => {
 
         try {
             const token = localStorage.getItem("token");
-            const response = await axios.post("http://localhost:5000/api/projects", { name: projectName }, {
+            const response = await axios.post("https://skai-lama-2g0p.onrender.com/api/projects", { name: projectName }, {
                 headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
             });
             if (response.status === 201 || response.status === 200) {

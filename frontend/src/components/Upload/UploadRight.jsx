@@ -151,7 +151,7 @@ const UploadRight = ({ projectId, token }) => {
 
   const handleDelete = async (fileId) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/projects/${projectId}/content/${fileId}`, {
+      const response = await fetch(`https://skai-lama-2g0p.onrender.com/api/projects/${projectId}/content/${fileId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`

@@ -20,7 +20,7 @@ const WelcomeScreen = () => {
         setError("");
         setLoading(true);
 
-        const url = isRegistering ? "http://localhost:5000/api/auth/register" : "http://localhost:5000/api/auth/login";
+        const url = isRegistering ? "https://skai-lama-2g0p.onrender.com/api/auth/register" : "https://skai-lama-2g0p.onrender.com/api/auth/login";
         const payload = isRegistering ? { name, email, password } : { email, password };
 
         try {
