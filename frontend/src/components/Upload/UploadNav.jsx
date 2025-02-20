@@ -5,7 +5,7 @@ import diamond from "../../assets/diamond.png"
 import widget from "../../assets/Vector (13).png";
 import add from "../../assets/Vector (12).png";
 import pencil from "../../assets/Vector 268.png";
-import setting from "../../assets/icon.png";
+import setting from "../../assets/diamond.png";
 import profile from "../../assets/ww.png"
 import UploadRight from './UploadRight';
 
