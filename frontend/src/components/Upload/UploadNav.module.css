@@ -1,0 +1,60 @@
+.mainContainer {
+    display: flex;
+    height: 100vh;
+  }
+  .left {
+    width: 442.65px;
+    gap: 50px;
+    padding: 55px;
+  }
+  .leftContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .leftData {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .leftHelp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 430px;
+  }
+  .leftIcon {
+    width: 187px;
+    height: 40px;
+  }
+  .leftIconsData {
+    width: 16px;
+    height: 16px;
+  }
+  .leftImageDiv {
+    margin-bottom: 30px;
+  }
+  .leftDownDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+  }
+  .hrline {
+    width: 100%;
+    /* height: 2px; */
+  }
+  .headingHome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+  }
+  
+  .settingContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
