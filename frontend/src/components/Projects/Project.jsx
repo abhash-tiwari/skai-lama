@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import project from "./Project.module.css";
 import logo from "../../assets/colorlogo.png";
 import notification from "../../assets/notifications.png";
-import setting from "../../assets/icon.png";
+import setting from "../../assets/diamond.png";
 import plus from "../../assets/Vector (12).png";
 import group from "../../assets/Group 16.png";
 import axios from "axios";
